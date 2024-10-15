@@ -12,7 +12,7 @@ Building our own Autostitch system to combine overlapping photographs into a sin
 
 * Blend the images with alpha blending (feathering)
 
-* Correcting for drift and create 360° panoramas 
+* Correcting for drift and create 360° panoramas
 
 Detailed project description can be found [here](http://www.cs.cornell.edu/courses/cs5670/2024sp/projects/pa3/index.html).
 
@@ -66,32 +66,32 @@ Detailed project description can be found [here](http://www.cs.cornell.edu/cours
 ### 1. Yosemite
 
 #### Input
-| ![](resources/yosemite/panorama/yosemite1.jpg) | ![](resources/yosemite/panorama/yosemite2.jpg) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![](resources/yosemite/panorama/yosemite3.jpg) | ![](resources/yosemite/panorama/yosemite4.jpg) |
+
+| <img src="resources/yosemite/panorama/yosemite1.jpg">  | <img src="resources/yosemite/panorama/yosemite2.jpg">  |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| <img src="resources/yosemite/panorama/yosemite3.jpg">  | <img src="resources/yosemite/panorama/yosemite4.jpg">  |
 
 #### Panorama
 
-Panorama with homography (Blend width 50)
-![](resources/yosemite/yosemite_pano_homography_blendwidth50.png)
+Panorama with homography (Blend width 50)  
+<img src="resources/yosemite/yosemite_pano_homography_blendwidth50.png">
 
-Panorama with translation (Blend width 50)
-![](resources/yosemite/yosemite_pano_translation_blendwidth50.png)
+Panorama with translation (Blend width 50)  
+<img src="resources/yosemite/yosemite_pano_translation_blendwidth50.png">
 
-
-### 2. Custom pictures
+### 2. Custom Pictures
 
 #### Input
 
-These pictures were taken with the iPhone 15 Pro with 2mm focal length.
+These pictures were taken with the iPhone 15 Pro with a 2mm focal length.
 
-| ![](artifact/01.jpg) | ![](artifact/02.jpg) | ![](artifact/04.jpg) |
-|-----------------------|-----------------------|-----------------------|
-| ![](artifact/06.jpg) | ![](artifact/07.jpg) | ![](artifact/08.jpg) |
-| ![](artifact/09.jpg) | ![](artifact/10.jpg) | ![](artifact/11.jpg) |
+| <img src="artifact/01.jpg"> | <img src="artifact/02.jpg"> | <img src="artifact/04.jpg"> |
+|-------------------------------|-------------------------------|-------------------------------|
+| <img src="artifact/06.jpg"> | <img src="artifact/07.jpg"> | <img src="artifact/08.jpg"> |
+| <img src="artifact/09.jpg"> | <img src="artifact/10.jpg"> | <img src="artifact/11.jpg"> |
 
 #### Panorama
 
 The person (myself) in the final 360 panorama looks a bit blurry because the autostitch algorithm overlaps images based on the matched features. Since I was not positioned in the center of the camera for some images, those areas got blurred out.
 
-![](artifact/panorama.jpg)
+<img src="artifact/panorama.jpg">
